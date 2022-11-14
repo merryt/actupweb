@@ -16,6 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+# # mysite/routing.py
+# from channels.routing import ProtocolTypeRouter
+
+# application = ProtocolTypeRouter({
+#     # (your routes here)
+# })
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('shows/', include('shows.urls'))
