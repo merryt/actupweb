@@ -4,16 +4,16 @@ from django.db import models
 
 class Line(models.Model):
     CATEGORY = (
-        ('1','Actor 1'),
-        ('2','Actor 2'),
-        ('3','Actor 3'),
-        ('4','Actor 4'),
-        ('5','Actor 5'),
-        ('6','Actor 6'),
-        ('7','Actor 7'),
-        ('s','Speakers'),
-        ('n1','Narator 1'),    
-        ('n2','Narator 2'),                            
+        ('A1','Actor 1'),
+        ('A2','Actor 2'),
+        ('A3','Actor 3'),
+        ('A4','Actor 4'),
+        ('A5','Actor 5'),
+        ('A6','Actor 6'),
+        ('A7','Actor 7'),
+        ('S','Speakers'),
+        ('N1','Narator 1'),    
+        ('N2','Narator 2'),                            
     )
     
     
